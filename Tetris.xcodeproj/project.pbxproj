@@ -13,6 +13,8 @@
 		B42F4DAA29F79E3500F3D542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42F4DA829F79E3500F3D542 /* Main.storyboard */; };
 		B42F4DAC29F79E3600F3D542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42F4DAB29F79E3600F3D542 /* Assets.xcassets */; };
 		B42F4DAF29F79E3600F3D542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42F4DAD29F79E3600F3D542 /* LaunchScreen.storyboard */; };
+		B4B9BAC12CE0CCBC002D3695 /* TetrisShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B9BAC02CE0CCBC002D3695 /* TetrisShape.swift */; };
+		B4B9BAC32CE0CCC6002D3695 /* TetrisPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B9BAC22CE0CCC6002D3695 /* TetrisPiece.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B42F4DAB29F79E3600F3D542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B42F4DAE29F79E3600F3D542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B42F4DB029F79E3600F3D542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B9BAC02CE0CCBC002D3695 /* TetrisShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisShape.swift; sourceTree = "<group>"; };
+		B4B9BAC22CE0CCC6002D3695 /* TetrisPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisPiece.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				B42F4DA229F79E3500F3D542 /* AppDelegate.swift */,
 				B42F4DA429F79E3500F3D542 /* SceneDelegate.swift */,
 				B42F4DA629F79E3500F3D542 /* ViewController.swift */,
+				B4B9BAC02CE0CCBC002D3695 /* TetrisShape.swift */,
+				B4B9BAC22CE0CCC6002D3695 /* TetrisPiece.swift */,
 				B42F4DA829F79E3500F3D542 /* Main.storyboard */,
 				B42F4DAB29F79E3600F3D542 /* Assets.xcassets */,
 				B42F4DAD29F79E3600F3D542 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				B42F4DA729F79E3500F3D542 /* ViewController.swift in Sources */,
 				B42F4DA329F79E3500F3D542 /* AppDelegate.swift in Sources */,
+				B4B9BAC32CE0CCC6002D3695 /* TetrisPiece.swift in Sources */,
+				B4B9BAC12CE0CCBC002D3695 /* TetrisShape.swift in Sources */,
 				B42F4DA529F79E3500F3D542 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

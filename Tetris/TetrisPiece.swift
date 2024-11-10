@@ -1,3 +1,11 @@
+//
+//  TetrisPiece.swift
+//  Tetris
+//
+//  Created by Morteza on 11/10/24.
+//
+
+
 import UIKit
 
 struct TetrisPiece {
@@ -14,10 +22,10 @@ struct TetrisPiece {
     
     // Generate a random piece
     static func randomPiece(columns: Int) -> TetrisPiece {
-        let shapes = [TetrisShape.I, TetrisShape.O, TetrisShape.T, TetrisShape.S, TetrisShape.Z, TetrisShape.J, TetrisShape.L]
+        let shapes: [TetrisShape] = [.I, .O, .T, .S, .Z, .J, .L]
         let colors: [UIColor] = [.cyan, .yellow, .purple, .green, .red, .blue, .orange]
         
-        let randomIndex = Int(arc4random_uniform(UInt32(shapes.count)))
+        let randomIndex = Int.random(in: 0...shapes.count - 1)
         let shape = shapes[randomIndex]
         let color = colors[randomIndex]
         
